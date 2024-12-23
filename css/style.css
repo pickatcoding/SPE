@@ -560,7 +560,7 @@ nav.charina_menu > ul > li > a:hover span {
 
 .hero-title h1 span {
     font-family: 'Lobster';
-    color: #FD7E4B;
+    color: #1A216A;
     font-weight: 400;
 }
 
@@ -717,9 +717,9 @@ nav.charina_menu > ul > li > a:hover span {
 /*--==============================================->
   <!-- Start charina Section Title -->
  ==================================================-*/
-.charina-section-title h4 {
-    font-size: 18px;
-    font-weight: 400;
+.charina-section-title h1 {
+    font-size: 25px;
+    font-weight: bold;
     color: #fe7f4c;
     line-height: 30px;
     font-family: 'Lobster';
@@ -727,7 +727,7 @@ nav.charina_menu > ul > li > a:hover span {
     position: relative;
     display: inline-block;
 }
-.charina-section-title h4:before {
+.charina-section-title h1:before {
     position: absolute;
     content: "";
     left: 0;
@@ -737,11 +737,11 @@ nav.charina_menu > ul > li > a:hover span {
     background: #53C99F;
     transition: .5s;
 }
-.charina-section-title h1 {
-    font-size: 42px;
+.charina-section-title h4 {
+    font-size: 30px;
     line-height: 52px;
 }
-.charina-section-title h1 span {
+.charina-section-title h4 span {
     color: #1C236A;
 }
 h1.section-text {
@@ -863,7 +863,7 @@ p.charina-icon i {
 
 .about-thumb2 {
     position: relative;
-    left: -127px;
+    right: -100px;
 }
 /*about counter*/
 .about-couner {
@@ -1521,7 +1521,7 @@ p.progress-text {
 }
 /*upper style*/
 .upper.call-to-button a:before {
-    background: #FD7E4B;
+    background: #1A216A;
 }
 .upper.call-to-button a i {
     color: #53C99F;
@@ -1540,7 +1540,7 @@ p.progress-text {
 
 /*call to action style two*/
 .style-two.call-to-action {
-    background: url(assets/images/resource/call-bg2.png);
+    background: url(../assets/images/resource/resource/call-bg2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -1580,7 +1580,7 @@ p.progress-text {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 0px 0 100px;
+    padding: 105px 0 100px;
 }
 .row.feature-bg {
     margin-top: -60px;
@@ -1654,16 +1654,16 @@ p.progress-text {
 
 /*Upper box*/
 .upper.feature-single-box:before {
-    background: #FD7E4B;
+    background: #1A216A;
 }
 .upper .feature-button a i {
-    color: #FD7E4B;
+    color: #1A216A;
 }
 .upper .feature-button a:hover {
-    color: #FD7E4B;
+    color: #1A216A;
 }
 .upper .feature-title h3:hover {
-    color: #FD7E4B;
+    color: #1A216A;
 }
 
 /*Upper2 box*/
@@ -1861,7 +1861,7 @@ div#slide {
 .event-date span {
     padding: 4px 22px;
     font-size: 14px;
-    background: #FD7E4B;
+    background: #1A216A;
     border-radius: 30px;
     display: inline-block;
     color: #fff;
@@ -1870,10 +1870,10 @@ div#slide {
 }
 /*hover*/
 .event-title h3 a:hover {
-    color: #FD7E4B;
+    color: #1A216A;
 }
 .event-button a:hover {
-    color: #FD7E4B;
+    color: #1A216A;
 }
 /* event box upper & hover*/
 .upper.events-single-box {
@@ -1935,7 +1935,7 @@ div#slide {
 .swiper-pagination-bullet {
     width: 17px !important;
     height: 17px !important;
-    border: 2px solid #FD7E4B;
+    border: 2px solid #1A216A;
     background: none;
     opacity: 1 !important;
 }
@@ -2174,7 +2174,7 @@ div#slide {
 .thumb-button span {
     padding: 8px 16px;
     font-size: 15px;
-    background: #FD7E4B;
+    background: #1A216A;
     color: #fff;
     border-radius: 4px;
     display: table-caption;
@@ -2205,7 +2205,7 @@ div#slide {
     color: #6f7775;
 }
 .style-three .event-title h3 a:hover {
-    color: #FD7E4B;
+    color: #1A216A;
 }
 /*--==============================================->
   <!-- Start charina brand Section Css -->
@@ -2508,7 +2508,7 @@ li.current:before {
 .mission-button a i {
     font-size: 13px;
     margin-left: 5px;
-    color: #FD7E4B;
+    color: #1A216A;
     transition: .5s;
 }
 .mission-button a:before {
@@ -2518,7 +2518,7 @@ li.current:before {
     right: 0;
     top: 0;
     bottom: 0;
-    background: #FD7E4B;
+    background: #1A216A;
     border-radius: 30px;
     z-index: -1;
     transform: scale(0);
@@ -2529,7 +2529,7 @@ li.current:before {
     transform: scale(1);
 }
 .mission-button a:hover {
-    border: 1px solid #FD7E4B;
+    border: 1px solid #1A216A;
     color: #fff;
 }
 .mission-button a:hover i {
@@ -2634,7 +2634,7 @@ li.current:before {
     top: 0;
 }
 .galary-text a:hover{
-    color: #FD7E4B;
+    color: #1A216A;
 }
 /*carousel active*/
 .active.center .galary-thumb .galary-text {
@@ -2893,7 +2893,7 @@ li.current:before {
 }
 /*volunteer text*/
 .volunteer-text span {
-    color: #FD7E4B;
+    color: #1A216A;
     font-weight: 500;
     padding: 5px 0 0;
     display: inline-block;
@@ -2901,10 +2901,10 @@ li.current:before {
 /* all hover*/
 
 .volunteer-title h2:hover {
-    color: #FD7E4B;
+    color: #1A216A;
 }
 .volunteer-social-icon ul li a:hover {
-    color: #FD7E4B;
+    color: #1A216A;
 }
 .volunteer-single-box:hover .volunteer-thumb:before {
     transform: scale(1);
@@ -3195,7 +3195,7 @@ h1.counter-title2 {
     background: #FFF2EC;
 }
 .upper .counter-title2 h1 {
-    color: #FD7E4B;
+    color: #1A216A;
 }
 /*upper2 box*/
 .counter-single-box.upper2 {
@@ -3240,7 +3240,7 @@ h1.counter-title2 {
     padding: 14px 39px;
     font-weight: 500;
     color: #fff;
-    background: #FD7E4B;
+    background: #1A216A;
     display: inline-block;
     border-radius: 30px;
     position: relative;
@@ -3286,7 +3286,7 @@ h4.widget-title:before {
     bottom: -8px;
     width: 40px;
     height: 2px;
-    background: #FD7E4B;
+    background: #1A216A;
     transition: .5s;
 }
 h4.widget-title:hover:before {
@@ -3312,7 +3312,7 @@ ul.footer-widget-list li a i {
     padding-right: 8px;
 }
 ul.footer-widget-list li:hover a {
-    color: #FD7E4B;
+    color: #1A216A;
 }
 
 /* widget contact info*/
@@ -3369,7 +3369,7 @@ ul.footer-widget-list li:hover a {
     font-weight: 500;
 }
 .footer-bottom-menu ul li a:hover{
-    color: #FD7E4B;
+    color: #1A216A;
 }
 /*footer shape*/
 .footer-shape {
@@ -3940,7 +3940,7 @@ span.flaticon-multiply i {
     display: inline-block;
     list-style: none;
     padding: 0 5px 0 0px;
-    color: #FD7E4B;
+    color: #1A216A;
     font-weight: 500;
 }
 .breatcam-menu ul li a {
@@ -3958,7 +3958,7 @@ span.flaticon-multiply i {
 }
 /*breatcam hover*/
 .breatcam-menu ul li a:hover {
-    color: #FD7E4B;
+    color: #1A216A;
 }
 
 
@@ -4123,7 +4123,7 @@ span.flaticon-multiply i {
 }
 
 .donations-detials-title h2 a:hover {
-    color: #FD7E4B;
+    color: #1A216A;
 }
 
 /*donation list*/
@@ -4139,7 +4139,7 @@ span.flaticon-multiply i {
 }
 
 .donation-list ul li i {
-    color: #FD7E4B;
+    color: #1A216A;
     font-size: 18px;
     padding-right: 6px;
 }
@@ -4277,8 +4277,8 @@ span.flaticon-multiply i {
 
 .style-two.contact-form button {
     padding: 15px 38px;
-    background: #FD7E4B;
-    border: 1px solid #FD7E4B;
+    background: #1A216A;
+    border: 1px solid #1A216A;
     border-radius: 30px;
     color: #fff;
     display: inline-block;
@@ -4565,12 +4565,12 @@ span.flaticon-multiply i {
     padding: 7px 20px 9px;
     font-size: 14px;
     background: #FFF6F1;
-    border-left: 3px  solid #FD7E4B;
+    border-left: 3px  solid #1A216A;
     border-radius: 2px;
     margin: 38px 0 32px;
 }
 .event-note p span {
-    color: #FD7E4B;
+    color: #1A216A;
     padding-right: 5px;
 }
 
@@ -4661,7 +4661,7 @@ span.flaticon-multiply i {
     right: 0;
     top: 0;
     bottom: 0;
-    background: #FD7E4B;
+    background: #1A216A;
     border-radius: 50%;
     transform: scale(0);
     transition: .5s;
@@ -4743,7 +4743,7 @@ span.blog-rt {
 }
 
 .blog-title2 h3 a:hover {
-    color: #FD7E4B;
+    color: #1A216A;
 }
 /*blog button*/
 
@@ -4836,14 +4836,14 @@ button.icons {
     top: 10px;
     width: 28px;
     height: 2px;
-    background: #FD7E4B;
+    background: #1A216A;
 }
 
 .up.donations-detials-title h2 a {
     font-size: 26px;
 }
 .donate-description p span {
-    color: #FD7E4B;
+    color: #1A216A;
 }
 
 /*tags list*/
@@ -4868,7 +4868,7 @@ button.icons {
     transition: .5s;
 }
 .tag-list ul li a:hover {
-    background: #FD7E4B;
+    background: #1A216A;
     color: #fff;
 }
 
@@ -4905,7 +4905,7 @@ button.icons {
     right: 0;
     top: 0;
     bottom: 0;
-    background: #FD7E4B;
+    background: #1A216A;
     border-radius: 30px;
     z-index: -1;
     transform: scale(0);
@@ -5094,7 +5094,7 @@ button.tablink:hover {
   background: #9faab7;
 }
 .option-input:checked {
-    background: #FD7E4B;
+    background: #1A216A;
 }
 .option-input:checked::before {
     width: 10px;
@@ -5309,7 +5309,7 @@ button.tablink:hover {
     text-align: center;
     line-height: 46px;
     font-size: 18px;
-    color: #FD7E4B;
+    color: #1A216A;
     left: 0;
     top: 0;
     height: 46px;
@@ -5344,7 +5344,7 @@ button.tablink:hover {
 }
 
 .prgoress_indicator:hover ::after {
-  color: #FD7E4B;
+  color: #1A216A;
 }
 
 .prgoress_indicator:hover ::before {
